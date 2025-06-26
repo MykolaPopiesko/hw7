@@ -1,0 +1,23 @@
+.adv__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.adv__box {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    border-radius: 2px;
+    background-color: get-color('scnd-bg-clr');
+}
+
+.adv__item {
+    width: 270px;
+
+    & h3 {
+        margin-bottom: 10px;
+    }
+}

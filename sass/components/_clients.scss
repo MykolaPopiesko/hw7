@@ -1,0 +1,31 @@
+.clients__list {
+    display: flex;
+
+}
+
+.clients__item {
+    // display: flex;
+
+    &:not(:last-child) {
+            margin-right: 30px;   }
+}
+
+
+
+.clients__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid get-color('icon-color');
+    border-radius: 4px;
+    fill: get-color('icon-color');
+
+    &:hover,
+    &:focus {
+            fill: get-color('accent-clr');
+            border: 1px solid get-color('accent-clr');   
+        }
+}
+
